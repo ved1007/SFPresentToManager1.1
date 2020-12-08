@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ac8511e-3d5f-43a1-976c-a58ccf2e4ada" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__com_aventstack_extentreports_4_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__io_cucumber_cucumber_core_4_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__io_cucumber_cucumber_expressions_7_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__io_cucumber_cucumber_junit_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__io_cucumber_datatable_1_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__io_cucumber_datatable_dependencies_1_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__io_cucumber_gherkin_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__io_cucumber_tag_expressions_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__net_masterthought_cucumber_reporting_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__org_apache_ant_ant_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__org_mongodb_bson_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__org_testng_testng_7_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__org_yaml_snakeyaml_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/Config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/Features/PresentToManager.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/Features/Ups.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/MyRunner/PresentToManagerRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/MyRunner/UpsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/pages/PresentToManagerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/pages/UpsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/stepDefinitions/PresentToManagerStepDefi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/stepDefinitions/UpsStepDefi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/CucumberReporting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/src/main/java/Excel/lib/util/ExcelData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/src/main/java/Excel/lib/util/Xls_DataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/src/main/java/Features/newaccount.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/src/main/java/MyRunner/AccountRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/src/main/java/com2/api/cucumber/readexcel/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/src/main/java/com2/api/cucumber/trasform/ExcelDataToDataTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/src/main/java/com2/excel/test/utility/Xls_Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/src/main/java/com2/qa/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/src/main/java/com2/qa/util/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/src/main/java/com2/qa/util/TestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/src/main/java/pages/AccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/src/main/java/pages/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberReporting/src/main/java/stepDefinitions/NewAccountDefi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BDDTestSandboxRefresh/src/main/java/com/qa/util/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BDDTestSandboxRefresh/src/main/java/com/qa/util/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/CucumberBDDFrame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/CucumberBDDFrame.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/SampleData/ExcelTestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/SampleData/ExcelTestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/ScreenshotsFiles/1597041512982.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/ScreenshotsFiles/1597043034371.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/ScreenshotsFiles/1597075323283.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/json_output/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/json_output/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/junit_xml/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/junit_xml/cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/Features/newaccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/Features/newaccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/com/qa/util/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/com/qa/util/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/pages/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/pages/AccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/pages/LeadsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/pages/LeadsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/pages/OpportunitiesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/pages/OpportunitiesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/stepDefinitions/LeadStepDefi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/stepDefinitions/LeadStepDefi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/stepDefinitions/NewAccountDefi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/stepDefinitions/NewAccountDefi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/stepDefinitions/OpportunitiesStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/src/main/java/stepDefinitions/OpportunitiesStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/target/classes/Excel/lib/util/ExcelData.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/target/classes/Features/Leads.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/target/classes/Features/Opportunities.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/target/classes/Features/newaccount.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/target/classes/MyRunner/LeadRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/target/classes/MyRunner/LeadRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/target/classes/com/qa/config/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/target/classes/com/qa/util/TestUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/target/classes/com/qa/util/TestUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/target/classes/pages/LeadsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/target/classes/pages/LeadsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/target/classes/pages/OpportunitiesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/target/classes/pages/OpportunitiesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/target/classes/stepDefinitions/OpportunitiesStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/target/classes/stepDefinitions/OpportunitiesStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CucumberBDDFrame/test-outout/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CucumberBDDFrame/test-outout/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/AccountCreated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/AccountDeleted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/RequiredField.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumProject/src/ClickOnGearIcon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumProject/src/ClickOnGearIcon.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lOD5nXXG7rGLntgFUslqiHouL2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ac8511e-3d5f-43a1-976c-a58ccf2e4ada" name="Default Changelist" comment="" />
+      <created>1607459065281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607459065281</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
