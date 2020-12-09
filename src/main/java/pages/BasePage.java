@@ -17,7 +17,7 @@ import com.qa.util.TestUtil;
 public class BasePage {
 
 	public WebDriver driver;
-	public final int WAIT = 10;
+	public final int WAIT = 30;
 
 	public void setup() {
 

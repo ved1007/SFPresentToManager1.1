@@ -59,14 +59,15 @@ public class PresentToManagerStepDefi {
     }
 
     @Then("^Click on Login to Sandbox button$")
-    public void click_on_Login_to_Sandbox_button() {
+    public void click_on_Login_to_Sandbox_button() throws InterruptedException {
         ptm.loginBtnClick();
+        Thread.sleep(18000);
 
     }
 
     @Then("^Home page title as \"([^\"]*)\"$")
     public void home_page_title_as(String HomePageTitleVerify) throws InterruptedException {
-        Thread.sleep(8000);
+    	Thread.sleep(18000);
         String title = ptm.getTitle();
         System.out.println(title);
         Assert.assertEquals(HomePageTitleVerify, title);

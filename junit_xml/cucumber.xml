@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="42.245843">
-    <testcase classname="Present to Manager" name="Present to Manager functionality" time="42.245843">
-        <failure message="org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000&#10;  (Session info: chrome=87.0.4280.88)&#10;Build info: version: 'unknown', revision: 'unknown', time: 'unknown'&#10;System info: host: 'HQ-991-0L7LVCF', ip: '2601:246:4500:c40:f8df:3af5:fe02:bf3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '13.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/s3/88ktkygs3s3...}, goog:chromeOptions: {debuggerAddress: localhost:51081}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 16cedcb24e11d42e0ad9cc2d9264dafb&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)&#10;&#9;at pages.BasePage.getTitle(BasePage.java:52)&#10;&#9;at stepDefinitions2.PresentToManagerStepDefi.home_page_title_as(PresentToManagerStepDefi.java:70)&#10;&#9;at ✽.And Home page title as &quot;Home | Salesforce&quot;(/Users/vedant.jagani/Desktop/Salesforce/CucumberBDDFrameVedant/src/main/java/Features/PresentToManager.feature:8)&#10;">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="168.696722">
+    <testcase classname="Present to Manager" name="Present to Manager functionality" time="168.696722">
+        <failure message="org.openqa.selenium.NoSuchElementException: Unable to locate element: //parent::div[@class='slds-m-horizontal_xxx-small slds-size--1-of-6 slds-truncate']//button[@type='button']&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: 'unknown', revision: 'unknown', time: 'unknown'&#10;System info: host: 'HQ-991-0L7LVCF', ip: '2601:246:4500:c40:f8df:3af5:fe02:bf3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '13.0.2'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201207203640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 20097, moz:profile: /var/folders/s3/88ktkygs3s3..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.7.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6c7bd065-1014-f84e-ab54-5cfc95c91c30&#10;*** Element info: {Using=xpath, value=//parent::div[@class='slds-m-horizontal_xxx-small slds-size--1-of-6 slds-truncate']//button[@type='button']}&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#10;&#9;at pages.BasePage.$(BasePage.java:56)&#10;&#9;at pages.PresentToManagerPage.createNewUpBtnClick(PresentToManagerPage.java:210)&#10;&#9;at pages.PresentToManagerPage.setupClick(PresentToManagerPage.java:124)&#10;&#9;at stepDefinitions2.PresentToManagerStepDefi.click_Setup_option(PresentToManagerStepDefi.java:85)&#10;&#9;at ✽.And CLick Setup option(/Users/vedant.jagani/Desktop/Salesforce/CucumberBDDFrameVedant/src/main/java/Features/PresentToManager.feature:10)&#10;">
             <![CDATA[Given View the Salesforce website...........................................passed
 When Salesforce login page title as "Login | Salesforce"....................passed
 Then SystemAdmin UserID enter "vedant.jagani@campingworld.com.test" and "Welcome2019*".passed
 And Click on Login to Sandbox button........................................passed
-And Home page title as "Home | Salesforce"..................................failed
-Then Click on the Gear icon.................................................skipped
-And CLick Setup option......................................................skipped
+And Home page title as "Home | Salesforce"..................................passed
+Then Click on the Gear icon.................................................passed
+And CLick Setup option......................................................failed
 Then Find Users.............................................................skipped
 Then Search for receptionist Alize McDonald from CNC........................skipped
 Then Click on Login Button..................................................skipped
@@ -37,13 +37,14 @@ Then Click on Login Button..................................................skip
 Then Logout as Jazz Barrett.................................................skipped
 
 StackTrace:
-org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=87.0.4280.88)
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //parent::div[@class='slds-m-horizontal_xxx-small slds-size--1-of-6 slds-truncate']//button[@type='button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'HQ-991-0L7LVCF', ip: '2601:246:4500:c40:f8df:3af5:fe02:bf3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '13.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/s3/88ktkygs3s3...}, goog:chromeOptions: {debuggerAddress: localhost:51081}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 16cedcb24e11d42e0ad9cc2d9264dafb
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201207203640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 20097, moz:profile: /var/folders/s3/88ktkygs3s3..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.7.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6c7bd065-1014-f84e-ab54-5cfc95c91c30
+*** Element info: {Using=xpath, value=//parent::div[@class='slds-m-horizontal_xxx-small slds-size--1-of-6 slds-truncate']//button[@type='button']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -55,11 +56,15 @@ Session ID: 16cedcb24e11d42e0ad9cc2d9264dafb
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
-	at pages.BasePage.getTitle(BasePage.java:52)
-	at stepDefinitions2.PresentToManagerStepDefi.home_page_title_as(PresentToManagerStepDefi.java:70)
-	at ✽.And Home page title as "Home | Salesforce"(/Users/vedant.jagani/Desktop/Salesforce/CucumberBDDFrameVedant/src/main/java/Features/PresentToManager.feature:8)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.BasePage.$(BasePage.java:56)
+	at pages.PresentToManagerPage.createNewUpBtnClick(PresentToManagerPage.java:210)
+	at pages.PresentToManagerPage.setupClick(PresentToManagerPage.java:124)
+	at stepDefinitions2.PresentToManagerStepDefi.click_Setup_option(PresentToManagerStepDefi.java:85)
+	at ✽.And CLick Setup option(/Users/vedant.jagani/Desktop/Salesforce/CucumberBDDFrameVedant/src/main/java/Features/PresentToManager.feature:10)
 ]]>
         </failure>
     </testcase>
