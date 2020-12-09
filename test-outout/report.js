@@ -1,165 +1,266 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/vedant.jagani/git/Salesforce/CucumberBDDFrameVedant/src/main/java/Features/Opportunities2.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/vedant.jagani/Desktop/Salesforce/CucumberBDDFrameVedant/src/main/java/Features/PresentToManager.feature");
 formatter.feature({
   "line": 1,
-  "name": "created New Opportunitie",
+  "name": "Present to Manager",
   "description": "",
-  "id": "created-new-opportunitie",
+  "id": "present-to-manager",
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
   "line": 3,
-  "name": "User is able to create Opportunitie",
+  "name": "Present to Manager functionality",
   "description": "",
-  "id": "created-new-opportunitie;user-is-able-to-create-opportunitie",
+  "id": "present-to-manager;present-to-manager-functionality",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 5,
-  "name": "Open the Salesforce Website",
+  "line": 4,
+  "name": "View the Salesforce website",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
-  "name": "verify the Salesforce page title",
+  "line": 5,
+  "name": "Salesforce login page title as \"Login | Salesforce\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 7,
-  "name": "Login with valid username and password \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+  "line": 6,
+  "name": "SystemAdmin UserID enter \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
+  "line": 7,
+  "name": "Click on Login to Sandbox button",
+  "keyword": "And "
+});
+formatter.step({
   "line": 8,
-  "name": "Click login button",
+  "name": "Home page title as \"Home | Salesforce\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 9,
-  "name": "Verify Salesforce Home page title",
-  "keyword": "And "
+  "name": "Click on the Gear icon",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 10,
-  "name": "Click on the Opportunities tab",
-  "keyword": "Then "
+  "name": "CLick Setup option",
+  "keyword": "And "
 });
 formatter.step({
-  "line": 11,
-  "name": "Click on the New button",
-  "keyword": "Then "
-});
-formatter.step({
+  "comments": [
+    {
+      "line": 11,
+      "value": "#------------------------Login as receptionist-----------------------------------"
+    }
+  ],
   "line": 12,
-  "name": "Select a record type and click Next",
+  "name": "Find Users",
   "keyword": "Then "
 });
 formatter.step({
   "line": 13,
-  "name": "Populate System Admin Layout fields",
-  "keyword": "And "
+  "name": "Search for receptionist Alize McDonald from CNC",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 14,
-  "name": "Opportunity Information",
-  "keyword": "And "
+  "name": "Click on Login Button",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 15,
-  "name": "Interested In Attributes",
-  "keyword": "And "
+  "name": "Click the Crete New Up button",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 16,
-  "name": "Interested In Details",
-  "keyword": "And "
+  "name": "Populate the Create New Up fields",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 17,
-  "name": "Towing Information",
-  "keyword": "And "
+  "name": "CLick on the Search button",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 18,
-  "name": "Currently Own Trade-InCurrently Own TradeIn from Web Lead fields",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 19,
-  "name": "Pupulate Info from lead fields",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 20,
-  "name": "Lead Source",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "Enter the Description Information",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 22,
-  "name": "Other data fields",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 23,
-  "name": "System Information fields",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 24,
   "name": "Click the Save button",
   "keyword": "Then "
 });
-formatter.examples({
+formatter.step({
+  "line": 19,
+  "name": "Logout as receptionist",
+  "keyword": "Then "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 20,
+      "value": "#----------------------Login as Dealer Sale-------------------------------------"
+    }
+  ],
+  "line": 21,
+  "name": "Search for Dealer Sales David King from CNC",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 22,
+  "name": "Click on Login Button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 23,
+  "name": "CLick on Customer Name",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 24,
+  "name": "Click on the RV Genius button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 25,
+  "name": "Populate the City and State fields",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 26,
+  "name": "Click on the Next Step button",
+  "keyword": "Then "
+});
+formatter.step({
   "line": 27,
+  "name": "Populate the Additional Attributes section",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 28,
+  "name": "Select the RVs by clicking plus sign",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 29,
+  "name": "Click on the Confirm Selections button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 30,
+  "name": "Select the Face icon and click on the Commitment button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 31,
+  "name": "CLick the Check mark green icon",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 32,
+  "name": "CLick on the Next Step",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 33,
+  "name": "Click on the Present to Manager button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 34,
+  "name": "Take screenshot of the Successfully message",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "Logout Dealer Sales",
+  "keyword": "And "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 36,
+      "value": "#-------------------------Login as Dealer Sales Manager----------------------------------"
+    }
+  ],
+  "line": 37,
+  "name": "Search for the Dealer Sale Manager",
+  "keyword": "Then "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 38,
+      "value": "#Jazz Barrett"
+    }
+  ],
+  "line": 39,
+  "name": "Click on Login Button",
+  "keyword": "Then "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 40,
+      "value": "# Then CLick on the Opportunity"
+    }
+  ],
+  "line": 41,
+  "name": "Logout as Jazz Barrett",
+  "keyword": "Then "
+});
+formatter.examples({
+  "comments": [
+    {
+      "line": 42,
+      "value": "#    And Close the Salesforce Application"
+    }
+  ],
+  "line": 44,
   "name": "",
   "description": "",
-  "id": "created-new-opportunitie;user-is-able-to-create-opportunitie;",
+  "id": "present-to-manager;present-to-manager-functionality;",
   "rows": [
     {
       "cells": [
         "username",
         "password"
       ],
-      "line": 28,
-      "id": "created-new-opportunitie;user-is-able-to-create-opportunitie;;1"
+      "line": 45,
+      "id": "present-to-manager;present-to-manager-functionality;;1"
     },
     {
       "cells": [
         "vedant.jagani@campingworld.com.test",
         "Welcome2019*"
       ],
-      "line": 29,
-      "id": "created-new-opportunitie;user-is-able-to-create-opportunitie;;2"
+      "line": 46,
+      "id": "present-to-manager;present-to-manager-functionality;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 29,
-  "name": "User is able to create Opportunitie",
+  "line": 46,
+  "name": "Present to Manager functionality",
   "description": "",
-  "id": "created-new-opportunitie;user-is-able-to-create-opportunitie;;2",
+  "id": "present-to-manager;present-to-manager-functionality;;2",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 5,
-  "name": "Open the Salesforce Website",
+  "line": 4,
+  "name": "View the Salesforce website",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
-  "name": "verify the Salesforce page title",
+  "line": 5,
+  "name": "Salesforce login page title as \"Login | Salesforce\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 7,
-  "name": "Login with valid username and password \"vedant.jagani@campingworld.com.test\" and \"Welcome2019*\"",
+  "line": 6,
+  "name": "SystemAdmin UserID enter \"vedant.jagani@campingworld.com.test\" and \"Welcome2019*\"",
   "matchedColumns": [
     0,
     1
@@ -167,224 +268,407 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
+  "line": 7,
+  "name": "Click on Login to Sandbox button",
+  "keyword": "And "
+});
+formatter.step({
   "line": 8,
-  "name": "Click login button",
+  "name": "Home page title as \"Home | Salesforce\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 9,
-  "name": "Verify Salesforce Home page title",
-  "keyword": "And "
+  "name": "Click on the Gear icon",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 10,
-  "name": "Click on the Opportunities tab",
-  "keyword": "Then "
+  "name": "CLick Setup option",
+  "keyword": "And "
 });
 formatter.step({
-  "line": 11,
-  "name": "Click on the New button",
-  "keyword": "Then "
-});
-formatter.step({
+  "comments": [
+    {
+      "line": 11,
+      "value": "#------------------------Login as receptionist-----------------------------------"
+    }
+  ],
   "line": 12,
-  "name": "Select a record type and click Next",
+  "name": "Find Users",
   "keyword": "Then "
 });
 formatter.step({
   "line": 13,
-  "name": "Populate System Admin Layout fields",
-  "keyword": "And "
+  "name": "Search for receptionist Alize McDonald from CNC",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 14,
-  "name": "Opportunity Information",
-  "keyword": "And "
+  "name": "Click on Login Button",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 15,
-  "name": "Interested In Attributes",
-  "keyword": "And "
+  "name": "Click the Crete New Up button",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 16,
-  "name": "Interested In Details",
-  "keyword": "And "
+  "name": "Populate the Create New Up fields",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 17,
-  "name": "Towing Information",
-  "keyword": "And "
+  "name": "CLick on the Search button",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 18,
-  "name": "Currently Own Trade-InCurrently Own TradeIn from Web Lead fields",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 19,
-  "name": "Pupulate Info from lead fields",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 20,
-  "name": "Lead Source",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "Enter the Description Information",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 22,
-  "name": "Other data fields",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 23,
-  "name": "System Information fields",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 24,
   "name": "Click the Save button",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 19,
+  "name": "Logout as receptionist",
+  "keyword": "Then "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 20,
+      "value": "#----------------------Login as Dealer Sale-------------------------------------"
+    }
+  ],
+  "line": 21,
+  "name": "Search for Dealer Sales David King from CNC",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 22,
+  "name": "Click on Login Button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 23,
+  "name": "CLick on Customer Name",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 24,
+  "name": "Click on the RV Genius button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 25,
+  "name": "Populate the City and State fields",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 26,
+  "name": "Click on the Next Step button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 27,
+  "name": "Populate the Additional Attributes section",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 28,
+  "name": "Select the RVs by clicking plus sign",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 29,
+  "name": "Click on the Confirm Selections button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 30,
+  "name": "Select the Face icon and click on the Commitment button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 31,
+  "name": "CLick the Check mark green icon",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 32,
+  "name": "CLick on the Next Step",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 33,
+  "name": "Click on the Present to Manager button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 34,
+  "name": "Take screenshot of the Successfully message",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "Logout Dealer Sales",
+  "keyword": "And "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 36,
+      "value": "#-------------------------Login as Dealer Sales Manager----------------------------------"
+    }
+  ],
+  "line": 37,
+  "name": "Search for the Dealer Sale Manager",
+  "keyword": "Then "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 38,
+      "value": "#Jazz Barrett"
+    }
+  ],
+  "line": 39,
+  "name": "Click on Login Button",
+  "keyword": "Then "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 40,
+      "value": "# Then CLick on the Opportunity"
+    }
+  ],
+  "line": 41,
+  "name": "Logout as Jazz Barrett",
+  "keyword": "Then "
+});
 formatter.match({
-  "location": "OpportunitiesStepDef.open_the_Salesforce_Website()"
+  "location": "PresentToManagerStepDefi.view_the_Salesforce_website()"
 });
 formatter.result({
-  "duration": 6877428404,
+  "duration": 10533524289,
   "status": "passed"
 });
 formatter.match({
-  "location": "OpportunitiesStepDef.verify_the_Salesforce_page_title()"
+  "arguments": [
+    {
+      "val": "Login | Salesforce",
+      "offset": 32
+    }
+  ],
+  "location": "PresentToManagerStepDefi.salesforce_login_page_title_as(String)"
 });
 formatter.result({
-  "duration": 6135132,
+  "duration": 3009193922,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "vedant.jagani@campingworld.com.test",
-      "offset": 40
+      "offset": 26
     },
     {
       "val": "Welcome2019*",
-      "offset": 82
+      "offset": 68
     }
   ],
-  "location": "OpportunitiesStepDef.login_with_valid_username_and_password_and(String,String)"
+  "location": "PresentToManagerStepDefi.systemadmin_UserID_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 281733532,
+  "duration": 167359257,
   "status": "passed"
 });
 formatter.match({
-  "location": "OpportunitiesStepDef.click_login_button()"
+  "location": "PresentToManagerStepDefi.click_on_Login_to_Sandbox_button()"
 });
 formatter.result({
-  "duration": 1854989541,
+  "duration": 42537317,
   "status": "passed"
 });
 formatter.match({
-  "location": "OpportunitiesStepDef.verify_Salesforce_Home_page_title()"
+  "arguments": [
+    {
+      "val": "Home | Salesforce",
+      "offset": 20
+    }
+  ],
+  "location": "PresentToManagerStepDefi.home_page_title_as(String)"
 });
 formatter.result({
-  "duration": 8530068765,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OpportunitiesStepDef.click_on_the_Opportunities_tab()"
-});
-formatter.result({
-  "duration": 3794203646,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OpportunitiesStepDef.click_on_the_New_button()"
-});
-formatter.result({
-  "duration": 30065110050,
-  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id\u003d\"brandBand_1\"]/div/div/div/div/div[1]/div[1]/div[2]/ul/li/a (tried for 10 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat stepDefinitions2.OpportunitiesStepDef.click_on_the_New_button(OpportunitiesStepDef.java:193)\n\tat ✽.Then Click on the New button(/Users/vedant.jagani/git/Salesforce/CucumberBDDFrameVedant/src/main/java/Features/Opportunities2.feature:11)\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"brandBand_1\"]/div/div/div/div/div[1]/div[1]/div[2]/ul/li/a\"}\n  (Session info: chrome\u003d84.0.4147.89)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u0027unknown\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027HQ-991-0L7LVCF\u0027, ip: \u00272601:246:4500:eb00:44fb:30ba:6d46:8ead%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/s3/88ktkygs3s3...}, goog:chromeOptions: {debuggerAddress: localhost:64748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 147d6c588277a47ee5b1bfbdb2aa9b2c\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"brandBand_1\"]/div/div/div/div/div[1]/div[1]/div[2]/ul/li/a}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat stepDefinitions2.OpportunitiesStepDef.click_on_the_New_button(OpportunitiesStepDef.java:193)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\n",
+  "duration": 28493228577,
+  "error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000\n  (Session info: chrome\u003d87.0.4280.88)\nBuild info: version: \u0027unknown\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027HQ-991-0L7LVCF\u0027, ip: \u00272601:246:4500:c40:f8df:3af5:fe02:bf3%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/s3/88ktkygs3s3...}, goog:chromeOptions: {debuggerAddress: localhost:51081}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 16cedcb24e11d42e0ad9cc2d9264dafb\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\n\tat pages.BasePage.getTitle(BasePage.java:52)\n\tat stepDefinitions2.PresentToManagerStepDefi.home_page_title_as(PresentToManagerStepDefi.java:70)\n\tat ✽.And Home page title as \"Home | Salesforce\"(/Users/vedant.jagani/Desktop/Salesforce/CucumberBDDFrameVedant/src/main/java/Features/PresentToManager.feature:8)\n",
   "status": "failed"
 });
 formatter.match({
-  "location": "OpportunitiesStepDef.select_a_record_type_and_click_Next()"
+  "location": "PresentToManagerStepDefi.click_on_the_Gear_icon()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "location": "OpportunitiesStepDef.populate_System_Admin_Layout_fields()"
+  "location": "PresentToManagerStepDefi.click_Setup_option()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "location": "OpportunitiesStepDef.Opportunity_Information()"
+  "location": "PresentToManagerStepDefi.find_Users()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "location": "OpportunitiesStepDef.populate_Interested_In_Attributes_fields()"
+  "location": "PresentToManagerStepDefi.search_for_receptionist_Alize_McDonald_from_CNC()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "location": "OpportunitiesStepDef.Interested_In_Details()"
+  "location": "PresentToManagerStepDefi.click_on_Login_Button()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "location": "OpportunitiesStepDef.Towing_Information()"
+  "location": "PresentToManagerStepDefi.click_the_Crete_New_Up_button()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "location": "OpportunitiesStepDef.currently_Own_Trade_InCurrently_Own_TradeIn_from_Web_Lead_fields()"
+  "location": "PresentToManagerStepDefi.populate_the_Create_New_Up_fields()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "location": "OpportunitiesStepDef.pupulate_Info_from_lead_fields()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "OpportunitiesStepDef.Lead_Source()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "OpportunitiesStepDef.enter_the_Description_Information()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "OpportunitiesStepDef.populate_Other_data_fields()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "OpportunitiesStepDef.System_Information_fields()"
+  "location": "PresentToManagerStepDefi.click_on_the_Search_button()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.match({
   "location": "OpportunitiesStepDef.click_the_Save_button()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.logout_as_receptionist()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.search_for_Dealer_Sales_David_King_from_CNC()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.click_on_Login_Button()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.click_on_Customer_Name()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.click_on_the_RV_Genius_button()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.populate_the_City_and_State_fields()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.click_on_the_Next_Step_button()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.populate_the_Notes_field()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.select_the_RVs_by_clicking_plus_sign()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.click_on_the_Confirm_Selections_button()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.select_the_Face_icon_and_click_on_the_Commitment_button()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.click_the_Check_mark_green_icon()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.click_on_the_Next_Step()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.click_on_the_Present_to_Manager_button()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.take_screenshot_of_the_Successfully_message()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.logout_Dealer_Sales()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.search_for_the_Dealer_Sale_Manager()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.click_on_Login_Button()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "PresentToManagerStepDefi.logout_as_Jazz_Barrett()"
 });
 formatter.result({
   "status": "skipped"

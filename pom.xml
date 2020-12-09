@@ -8,12 +8,12 @@
 	<groupId>CucumberBDDFrame</groupId>
 	<artifactId>CucumberBDDFrame</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
 	<name>CucumberBDDFrame</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
 	<properties>
+		<spring.version>0.0.1 RELEASE</spring.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
