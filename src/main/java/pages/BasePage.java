@@ -21,18 +21,18 @@ public class BasePage {
 
 	public void setup() {
 
-/*		System.setProperty("webdriver.chrome.driver",
-				"/Users/vedant.jagani/Documents/Automation/SampleAutomation/Drivers/chromedriver");
-		ChromeOptions opt1 = new ChromeOptions();
-		opt1.addArguments("--disable-notifications");
-		driver = new ChromeDriver(opt1);
-*/		
-		System.setProperty("webdriver.gecko.driver","/Users/vedant.jagani/Documents/Automation/Drivers/geckodriver");
+		/*
+		 * System.setProperty("webdriver.chrome.driver",
+		 * "/Users/vedant.jagani/Documents/Automation/SampleAutomation/Drivers/chromedriver"
+		 * ); ChromeOptions opt1 = new ChromeOptions();
+		 * opt1.addArguments("--disable-notifications"); driver = new
+		 * ChromeDriver(opt1);
+		 */
+		System.setProperty("webdriver.gecko.driver", "/Users/vedant.jagani/Documents/Automation/Drivers/geckodriver");
 		FirefoxOptions opt = new FirefoxOptions();
 		opt.addPreference("dom.webnotifications.enabled", false);
 		driver = new FirefoxDriver(opt);
-		
-		
+
 		driver.get("https://rv--test.cs26.my.salesforce.com/");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();

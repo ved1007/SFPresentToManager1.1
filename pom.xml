@@ -3,10 +3,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
 
+	<modelVersion>4.0.0</modelVersion>
 	<groupId>CucumberBDDFrame</groupId>
 	<artifactId>CucumberBDDFrame</artifactId>
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>CucumberBDDFrame</name>
 	<!-- FIXME change it to the project's website -->
@@ -104,7 +105,7 @@
 			<artifactId>cucumber-testng</artifactId>
 			<version>1.2.5</version>
 			<scope>compile</scope>
-			
+
 		</dependency>
 
 		<dependency>
@@ -182,6 +183,21 @@
 		</dependency>
 
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>releaserepo</name>
+			<url>http://localhost:8081/repository/Maven_SF_Release_1/</url>
+		</repository>
+
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>snapshotrepo</name>
+			<url>http://localhost:8081/repository/Maven_SF_Snapshot/</url>
+		</snapshotRepository>
+
+	</distributionManagement>
 
 	<build>
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven 
